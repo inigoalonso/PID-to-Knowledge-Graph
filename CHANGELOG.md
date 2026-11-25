@@ -12,7 +12,7 @@ First release.
   - resolution is chosen from the measured text size;
   - pages are cut into overlapping tiles with blank-tile detection.
 - Deterministic hints from the PDF text layer or OCR (RapidOCR), used to flag possible missed tags.
-- Extraction schema and procedure for Claude's visual reading of each sheet.
+- Extraction schema and procedure for the agent's visual reading of each sheet.
 - Graph builder:
   - merges items across sheets by tag;
   - expands pipe runs into segments, including tees and taps;

@@ -4,7 +4,7 @@ OCR is used for two things only:
 
 * detecting page orientation, and
 * producing *hints*: candidate tags with positions that QA compares against
-  Claude's visual extraction to flag possible misses.
+  the agent's visual extraction to flag possible misses.
 
 It never writes to the graph directly.
 """

@@ -1,4 +1,4 @@
-"""Quality checks on a built graph, and the QA report Claude uses for its second pass."""
+"""Quality checks on a built graph, and the QA report the agent uses for its second pass."""
 
 from __future__ import annotations
 

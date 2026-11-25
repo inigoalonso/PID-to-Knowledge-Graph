@@ -8,7 +8,7 @@ description: Converts P&IDs (piping and instrumentation diagrams) and PFDs in PD
 Work is split between deterministic scripts and you:
 
 - **Scripts** classify pages (vector vs scanned), render them into readable tiles, collect OCR/text hints, then build, check, store and query the graph.
-- **You** read the drawings and write one structured extraction file per sheet. Symbol recognition and line tracing are visual reasoning, and that is the part scripts cannot do well.
+- **You** (the agent, using your image-viewing tool, e.g. `view` in Copilot or `Read` in Claude Code) read the drawings and write one structured extraction file per sheet. Symbol recognition and line tracing are visual reasoning, and that is the part scripts cannot do well.
 
 All scripts are in `scripts/` next to this file. Call them by their full path (the commands below abbreviate it as `scripts/`), and keep the work directory in the user's current folder, e.g. `work/<plant>`.
 
