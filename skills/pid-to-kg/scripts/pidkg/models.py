@@ -2,7 +2,7 @@
 
 Two schemas live here:
 
-* ``PageExtraction`` is what Claude writes for every P&ID sheet after reading
+* ``PageExtraction`` is what the agent writes for every P&ID sheet after reading
   it visually (``extract/page_NN.json``). It mirrors how an engineer reads a
   drawing: items on the sheet, the pipe runs between them, and the signal
   lines between instruments.
@@ -40,7 +40,7 @@ def _check_bbox(v: Optional[BBox]) -> Optional[BBox]:
 
 
 # ==========================================================================
-# Page extraction (written by Claude, one file per sheet)
+# Page extraction (written by the agent, one file per sheet)
 # ==========================================================================
 
 

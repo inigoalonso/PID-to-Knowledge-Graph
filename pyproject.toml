@@ -1,7 +1,7 @@
 [project]
 name = "pid-to-kg"
 version = "0.1.0"
-description = "Claude skill that turns P&ID PDFs (vector or scanned) into a process knowledge graph"
+description = "Agent skill (Claude Code, GitHub Copilot) that turns P&ID PDFs (vector or scanned) into a process knowledge graph"
 readme = "README.md"
 license = { text = "MIT" }
 requires-python = ">=3.10"

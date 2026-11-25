@@ -36,7 +36,7 @@ OVERVIEW_LONG_EDGE = 1568
 BLANK_INK = 0.0002  # a lone instrument bubble is ~0.0003 of a tile
 PREVIEW_EDGE = 2400
 # Render so that small text (25th percentile OCR box) is about this tall in a
-# tile. Claude downsamples a 1400 px tile to ~1090 px, leaving ~16 px text.
+# tile. Vision models downsample a 1400 px tile to ~1090 px, leaving ~16 px text.
 TARGET_TEXT_BOX = 32
 MIN_EDGE, MAX_EDGE = 3000, 8000
 DEFAULT_VECTOR_EDGE, DEFAULT_RASTER_EDGE = 5000, 4000
